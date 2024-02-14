@@ -95,3 +95,9 @@ a>h2:hover {
 div.photo>img:hover {
     color: rgba(0, 255, 255, 0.44);
 }
+/* @media (max-width: 375px) {
+  div.main {
+    width: 150px;
+    height: auto;
+  }
+} */
