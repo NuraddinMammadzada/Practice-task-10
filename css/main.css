@@ -8,23 +8,27 @@ body {
 
 div.main {
     background-color: hsl(216, 50%, 16%);
-    width: 400px;
-    height: 550px;
+    width: 350px;
+    height: 630px;
     border-radius: 18px;
     margin: auto;
     margin-top: 50px;
     box-shadow: 22px rgba(0, 0, 0, 0.466);
 }
 
-h2 {
+a>h2 {
     color: white;
-
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
 }
 
 div.main>div.photo>img {
     width: 100%;
     height: auto;
     border-radius: 12px;
+    margin-top: 32px;
 }
 
 div.photo {
@@ -32,12 +36,13 @@ div.photo {
     height: 300px;
     margin: auto;
     border-radius: 22px;
-    margin-top: 32px;
+
 }
 
 p.opac {
-    font-size: 12px;
+    font-size: 18px;
     color: rgb(185, 185, 185);
+
 }
 
 div.yazi {
@@ -48,7 +53,7 @@ div.yazi {
 h3 {
     color: aqua;
     display: inline-block;
-    margin-right: 148px;
+    margin-right: 128px;
 }
 
 span {
@@ -72,10 +77,21 @@ img.avtr {
 span.ad {
     margin-left: 18px;
     color: lightslategray;
+    margin-bottom: 64px;
 }
 
 span.ad2 {
     color: white;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
+}
 
+span.ad2:hover {
+    color: aqua;
+}
+
+a>h2:hover {
+    color: aqua;
+}
+div.photo>img:hover {
+    color: rgba(0, 255, 255, 0.44);
 }
